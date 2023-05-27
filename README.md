@@ -11,9 +11,14 @@ For this problem, we use the MNIST data which is a large database of handwritten
 ## Contents
 | File name | Description | Format |
 |-----------|-------------|--------|
-| test      | test dataset| csv|
-|train    | train dataset| csv    |
+| test      | test dataset| csv    |
+|train      | train dataset| csv    |
+|final_predictions_test_data| final predictions| csv|
+|cross_val_results| hyperparams | csv |
+|Digit_Recognition_SVM| notebook | ipynb |
 
+
+While a basic SVM worked well on the dataset, there were still over 780 attributes to consider so a dimensionality reduction was pursued using PCA. After identifying the PCs of the dataset, a new SVM model was made which slightly outperformed the original SVM model by 0.3% giving it an accuracy of 98%
 
 
 
